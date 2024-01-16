@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Chronicel-normal;
+  src: url('./assets/Fonts/Chronicle\ Display\ Black.otf');
+}
+@font-face {
+  font-family: Gilroy;
+  src: url('./assets/Fonts/Gilroy-Light.otf');
+}
+@font-face {
+  font-family: Chronicel-bold;
+  src: url('./assets/Fonts/Chronicle\ Display\ Semibold.otf');
+}
+@font-face {
+  font-family: Chronicel-bold;
+  src: url('./assets/Fonts/Chronicle\ Display\ Semibold.otf');
+}
+@font-face {
+  font-family: Gilroy-bold;
+  src: url('./assets/Fonts/Chronicle\ Display\ Semibold.otf');
+}
+:root{
+  --primary-bg-color:#0B1D26;
+  --font-color:#ffffff;
+  --title-color:#FBD784;
+  --main-font:Chronicel;
+  --main-font-bold:Chronicel-bold;
+  --sub-font:Gilroy;
+  --sub-font-bold:Gilroy-bold;
+  --font-size:16px;
+}
+*{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 16px;
+  box-sizing: border-box;
+  line-height:23px;
+  letter-spacing:0.5px;
+  word-spacing: 4px;
+  /* background-color: var(--primary-bg-color); */
+  color: white;
+  text-decoration: none;
+
+}
+
+.padding{
+  /* padding: 35px 0; */
+}
+.get{
+  margin-top: 93vh;
+}
+.height-container{
+  background-color: var(--primary-bg-color);
+  height: fit-content;
+}

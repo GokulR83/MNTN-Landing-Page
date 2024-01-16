@@ -1,0 +1,73 @@
+.hiking-essentials{
+    position: relative;
+    top: 200px;
+    left: 0;
+    z-index: 1000;
+    padding: 50px 50px;
+    background-color: var(--primary-bg-color);
+}
+
+.number h2{
+    font-family: var(--sub-font);
+    font-size: 10rem;
+    opacity: 0.4;
+    font-weight: bold;
+    margin-bottom: 20%;
+}
+
+.line p{
+    font-family: var(--sub-font);
+    color: var(--title-color);
+    left: 10px;
+}
+.hiking-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 30px;
+}
+@media screen and (max-width: 974px){
+    .hiking-container{
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+}
+.left-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hiker h2{
+    font-family: var(--main-font);
+    font-size: 2rem;
+    padding-top: 20px;
+}
+.hiker p{
+    font-family: var(--sub-font);
+    font-size: 1rem;
+    padding:20px 0;
+    padding-right: 20px;
+}
+.read-more{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.read-more p{
+    font-family: var(--sub-font);
+    font-size: 1rem;
+    
+    padding:10px;
+    width: 110px;
+}
+.read-more img{
+    width: 24px;
+}
+
+.img-container img{
+    object-fit:contain;
+}

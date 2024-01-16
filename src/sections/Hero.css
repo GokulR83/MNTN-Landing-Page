@@ -1,0 +1,142 @@
+img{
+    max-width: 100%;
+    display: inline-block;
+}
+#bg-one{
+   position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: -1;
+    filter:brightness(70%);
+}
+
+
+#bg-two{
+    position: absolute;
+   left: 0%;
+   top: 40%;
+   right: 0%;
+   bottom: 0%;
+   z-index: 0;
+   filter:brightness(70%);
+}
+@media screen and (max-width: 479px) {
+  #bg-final
+{
+    -o-object-position: 30% 50%;
+    object-position: 30% 50%;
+  }
+  #bg-one
+  {
+    -o-object-position: 30% 50%;
+    object-position: 30% 50%;
+  }
+  #bg-two
+{
+    -o-object-position: 30% 50%;
+    object-position: 30% 50%;
+  }
+}
+@media screen and (max-width: 767px) {
+  #bg-final
+{
+    top: 55%;
+    width: 100%;
+    height: 600px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: 50% 0%;
+    object-position: 50% 0%;
+  }
+  #bg-two{
+    top: 35%;
+    width: 100%;
+    height: 600px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  #bg-one{
+    width: 100%;
+    height: 600px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+}
+.line{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+.line hr{
+  height: 2px;
+  width: 100px;
+  color: var(--title-color);
+  border: 1px solid var(--title-color);
+}
+.hero-container{
+    position: fixed;
+    left: 20%;
+    top: 200px;
+    max-width:70%;
+    height: fit-content;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 10px;
+}
+.hero-container p{
+    font-family: var(--sub-font);
+    color: var(--title-color);
+    font-size: 1rem;
+    font-weight: 20px;
+}
+.heading{
+  /* text-wrap: wrap; */
+  font-family: var(--main-font-bold);
+  font-size: 5rem;
+  padding-top:10px;
+  line-height: 1;
+}
+#bg-final{
+    position: absolute;
+    left: 0%;
+    top: 60%;
+    right: 0%;
+    bottom: 0%;
+    z-index: 50;
+}
+.scroll-down{
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.scroll-down p{
+  width: 120px;
+  color: var(--title-color);
+}
+.scroll-down img{
+  width: 10px;
+}
+
+@media screen and (max-width:481px){
+  .heading{
+    font-size: 3.8rem;
+  }
+  .hero-container p{
+    font-size: 0.7rem;
+  }
+}
+@media screen and (min-width:482px) and (max-width:768px){
+  .heading{
+    font-size: 4.1rem;
+  }
+}
